@@ -1,0 +1,54 @@
+//[MAIN BODY AND GAME STYLES]
+body {
+  margin: 0 auto;
+  background-color: #1c1c1c;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 10px 0;
+  font-family: 'Concert One', sans-serif;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.gameArea {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 90%;
+  height: 70vh;
+  max-height: 600px;
+  max-width: 400px;
+  background-color: black;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.scoreTitle {
+  position: absolute;
+  display: block;
+  margin: 10px auto;
+  z-index: 2;
+  text-align: right;
+  right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+// [SWEET ALERT POP UP STYLES]
+.swal2-popup {
+  .swal2-title {
+    font-family: 'Concert One', sans-serif;
+  }
+
+  .swal2-content {
+    line-height: 1.3em;
+  }
+}

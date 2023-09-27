@@ -1,0 +1,74 @@
+// [STYLING FOR ASTEROIDS AND THEIR COLLISION DIVS]
+.asteroid {
+  position: absolute;
+  display: block;
+  top: -20px;
+}
+
+.asteroidAreaOne,
+.asteroidAreaTwo,
+.asteroidAreaThree,
+.asteroidAreaFour,
+.asteroidHeightOne,
+.asteroidHeightTwo,
+.asteroidHeightThree,
+.asteroidHeightFour,
+.asteroidWidthOne,
+.asteroidWidthTwo,
+.asteroidWidthThree,
+.asteroidWidthFour {
+  position: absolute;
+  margin: 0 auto;
+}
+
+// Defines where the asteroid will be positioned during the start of the game
+.asteroidAreaOne {
+  left: 150px;
+  top: -90px;
+}
+
+.asteroidAreaTwo {
+  left: 10px;
+  top: -270px;
+}
+
+.asteroidAreaThree {
+  left: 300px;
+  top: -420px;
+}
+
+.asteroidAreaFour {
+  left: 200px;
+  top: -620px;
+}
+
+//Defines the height of the collision div (asteroid one is smaller so different px)
+.asteroidHeightOne {
+  width: 20px;
+  height: 60px;
+}
+
+.asteroidHeightTwo,
+.asteroidHeightThree,
+.asteroidHeightFour {
+  width: 30px;
+  height: 70px;
+}
+
+//Defines the width of the collision div (asteroid one is smaller so different px)
+.asteroidWidthOne {
+  width: 60px;
+  height: 20px;
+  left: -20px;
+  top: 15px;
+}
+
+.asteroidWidthTwo,
+.asteroidWidthThree,
+.asteroidWidthFour {
+  display: block;
+  width: 70px;
+  height: 30px;
+  top: 15px;
+  left: -20px;
+}
