@@ -110,7 +110,7 @@ $(function () {
     };
 
     // [SCORE/KM COUNTER]
-    // Mine is set at 8km per second - Space Shuttles must reach a speed of around 28,000km per hour to remain in orbit which is around 8km per second :)
+    // Mine is set at 8km per second - Space Shuttles must reach a speed of around 28,000km per hour to remain in orbit which is around 8km per second
     // https://www.nasa.gov/centers/kennedy/about/information/shuttle_faq.html
     let totalKm = 0;
     let timer = setInterval(countScore, 80);
@@ -237,4 +237,3 @@ $(function () {
 
 // Music: Eric Skiff - Song Name - Chibi Ninja - Available at http://EricSkiff.com/music
 // Game over sound effect: https://bassgorilla.com/video-game-sound-effects/
-// shoutout to https://developer.mozilla.org/en-US/docs/Web/JavaScript helped me with majority of my code ha ha ha
